@@ -1,0 +1,177 @@
+@import url("./../assets/fonts/Averta/stylesheet.css");
+
+body{
+    font-family: 'Averta Demo PE';
+}
+
+.green-nav-button{
+    border-radius: 20px;
+    padding-right: 25px !important;
+    padding-left: 25px !important;
+}
+
+.whatsapp-icon,.in-icon{
+    height: 35px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+}
+
+.footer-contact{
+    padding-left: 0px;
+}
+
+.main-first{
+    background-image: url(./../assets/images/main-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 700px;  
+    position: relative;  
+}
+
+.main-fourth{
+    background-image: url(./../assets/images/demo-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 700px;  
+    position: relative;  
+}
+
+
+
+.main-fourth__block{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.main-first__block{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.contact-form{
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.book-a-demo-button{
+    width: fit-content;
+}
+
+.confirm-button{
+    border-radius: 20px;
+}
+
+.svg-background{
+    background: linear-gradient(0deg, rgba(16,159,16,1) 0%, rgba(173,249,160,1) 100%);
+    padding: 22px;
+    border-radius: 50%;
+}
+
+.svg-img{
+    height: 40px;
+    width: 40px;
+}
+
+.info-cards{
+    margin-bottom: 80px;
+}
+
+
+
+.header-logo{
+    height: 45px;
+}
+
+.pricing-card{
+    padding-bottom: 40px;
+    border-radius: 20px;
+    max-width: 250px;
+    min-width: 250px;
+    padding-top: 30px;
+}
+
+.news-card{
+    padding-bottom: 40px;
+    border-radius: 20px;
+    max-width: 250px;
+    min-width: 250px;
+    padding-top: 30px;
+    background-color: #f2f2f2;
+}
+
+.pricing-card__description{
+    font-size: 14px;
+}
+
+.pricing-card__price{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.pricing-card-description{
+    font-size: 12px;
+}
+
+.main-third{
+    background-color: #f2f2f2;
+}
+
+.footer-company-name{
+    color: #888687;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+@media (max-width: 1200px) {
+    .main-fourth{
+        height: 400px;  
+    }
+}
+
+@media (max-width: 992px) {
+    .pricing-card{
+        margin-bottom: 30px;
+    }
+    .news-card{
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .main-title{
+        font-size: 40px;
+    }
+
+    .header-logo{
+        height: 40px;
+    }
+}
+
+@media (max-width: 576px) {
+    .main-title{
+        font-size: 23px;
+    }
+
+    .main-text{
+        font-size: 13px;
+    }
+
+    .info-cards{
+        margin-bottom: 40px;
+    }
+
+    .info-cards__card{
+        margin-bottom: 50px;
+    }
+}
+

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous"></head>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="/assets/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <body>
+    <header class="bg-dark">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+                <a class="navbar-brand" href="#"><img class="header-logo" src="./assets/images/logo.svg" alt="rixpls logo"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <div class="navbar-nav d-flex w-100 justify-content-between">
+                    <div class="d-flex flex-column flex-lg-row">
+                        <a class="nav-item nav-link text-white" href="#products">Products <span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link text-white" href="#features">Features</a>
+                        <a class="nav-item nav-link text-white" href="#pricing">Pricing</a>
+                        <a class="nav-item nav-link text-white" href="#references">References</a>
+                        <a class="nav-item nav-link text-white" href="#news">News</a>
+                        <a class="nav-item nav-link text-white" href="#contact">Contact</a>
+                    </div>
+
+                    <a class="green-nav-button nav-item nav-link text-white bg-success" href="#book-demo">book a demo</a>
+
+                  </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="main-first">
+            <div class="main-first__block container d-flex justify-content-center justify-content-lg-between flex-wrap">
+                <div class="d-flex flex-column justify-content-between mb-5 mb-lg-0 align-items-center align-items-sm-start">
+                    <div> 
+                        <h1 class="main-title text-white font-weight-bold mb-4">Easy-to-use Construction <br> Management Software</h1>
+                        <p class="main-text text-white mb-5">Make it easier to manage your construction projects with <br> our Rixpls. Save time & money while boosting <br> the efficiency and coordination of your team</p>
+                    </div>
+                    <a class="book-a-demo-button d-inline green-nav-button nav-item nav-link text-white bg-success" href="#">book a demo</a>
+                </div>
+                <div class="contact-form bg-light">
+                    <p class="h4 text-center mb-3 text-dark font-weight-bold">Calculate the cost <br> installations</p>
+                    <form class="d-flex flex-column align-items-center">
+                        <div class="input-group mb-2">
+                          <input id="name" type="text" class="form-control" name="name" placeholder="Name">
+                          <span class="input-group-addon"><img src="./assets/images/name.svg" ></span>
+                        </div>
+                        <div class="input-group mb-3">
+                          <input id="phone" type="text" class="form-control" name="phone" placeholder="Phone">
+                          <span class="input-group-addon"><img src="./assets/images/phone.svg" class="glyphicon glyphicon-lock"></span>
+                        </div>
+                        <div type="button" class="confirm-button btn btn-outline-dark mb-3">Confirm the application</div>
+                        <p class="mb-0 text-dark text-center">You agree with processing rules <br> personal data by submitting</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-second">
+            <div id="features" class="main-cesond__block container d-flex flex-column">
+                <h3 class="text-center mt-5 mb-5">Fast and easy construction scheduling</h3>
+                <div class="info-cards d-flex justify-content-center justify-content-sm-between flex-wrap">
+                    <div class="info-cards__card d-flex flex-column align-items-center">
+                        <div class="svg-background mb-5">
+                            <img class="svg-img" src="./assets/images/icon1.svg" alt="customized icon">
+                        </div>
+                        <p class="h5 font-weight-bold text-center mb-4">Customized for the industry</p>
+                        <p class="text-center">Great digital tools, tailored for <br> the construction industry</p>
+                    </div>
+                    <div class="info-cards__card d-flex flex-column align-items-center">
+                        <div class="svg-background mb-5">
+                            <img class="svg-img" src="./assets/images/icon2.svg" alt="customized icon">
+                        </div>
+                        <p class="h5 font-weight-bold text-center mb-4">Mobile & cloud-based</p>
+                        <p class="text-center">You can word where you want <br> and always stay up to date. Use <br> your mobile, tablet or computer.</p>
+                    </div>
+                    <div class="info-cards__card d-flex flex-column align-items-center">
+                        <div class="svg-background mb-5">
+                            <img class="svg-img" src="./assets/images/icon3.svg" alt="customized icon">
+                        </div>
+                        <p class="h5 font-weight-bold text-center mb-4">No contract period</p>
+                        <p class="text-center">Our customers stay because the <br> service is great, not because of <br> long cantract periods</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-third">
+            <div id="pricing" class="main-third__block container d-flex flex-column">
+                <h3 class="text-center mt-5 mb-5">Pricing</h3>
+                <div class="info-cards d-flex justify-content-center justify-content-sm-between justify-content-md-around flex-wrap">
+                    <div class="pricing-card d-flex flex-column align-items-center bg-white">
+                        <p class="pricing-card__title h5 font-weight-bold text-center mb-4">30-day trial</p>
+                        <p class="pricing-card__description text-center">Get started in 30 seconds, <br> no credit card needed</p>
+                        <p class="pricing-card__price text-center">Free</p>
+                        <a class="green-nav-button nav-item nav-link text-white bg-success" href="#">free trial 30 days</a>
+                    </div>
+                    <div class="pricing-card d-flex flex-column align-items-center bg-white">
+                        <p class="pricing-card__title h5 font-weight-bold text-center mb-4">Standart</p>
+                        <p class="pricing-card__description text-center">Get the main features<br> fast and easy </p>
+                        <p class="pricing-card__price text-center">$20/m</p>
+                        <a class="green-nav-button nav-item nav-link text-white bg-success" href="#">get started</a>
+                    </div>
+                    <div class="pricing-card d-flex flex-column align-items-center bg-white">
+                        <p class="pricing-card__title h5 font-weight-bold text-center mb-4">30-day trial</p>
+                        <p class="pricing-card__description text-center">Create professional schedules<br> fast and easy</p>
+                        <p class="pricing-card__price text-center">$35/m</p>
+                        <a class="green-nav-button nav-item nav-link text-white bg-success" href="#">get started</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="book-demo" class="main-fourth">
+            <div class="main-fourth__block container d-flex justify-content-center flex-wrap">
+                <div class="d-flex flex-column justify-content-between mb-5 mb-lg-0 align-items-center">
+                    <div> 
+                        <p class="h2  main-title text-white text-center mb-4">Book a demo</p>
+                        <p class="main-text text-white text-center mb-5">Book an unconditional devo and <br> discussion about our product - Rixpls</p>
+                    </div>
+                    <a class="book-a-demo-button d-inline green-nav-button nav-item nav-link text-white bg-success" href="">book a demo</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-fifth bg-white">
+            <div id="news" class="main-fifth__block container d-flex flex-column flex-wrap">
+                <h3 class="text-center mt-5 mb-5">News</h3>
+                <div class="info-cards d-flex justify-content-center justify-content-sm-between justify-content-md-around flex-wrap">
+                    <div class="news-card d-flex flex-column align-items-center">
+                        <p class="news-card__title h5 font-weight-bold text-center mb-4">30-day trial</p>
+                        <p class="news-card__description text-center">Get started in 30 seconds, <br> no credit card needed</p>
+                        <p class="news-card__price text-center">Free</p>
+                        <a class="green-nav-button nav-item nav-link text-white bg-success" href="#">free trial 30 days</a>
+                    </div>
+                    <div class="news-card d-flex flex-column align-items-center">
+                        <p class="news-card__title h5 font-weight-bold text-center mb-4">Standart</p>
+                        <p class="news-card__description text-center">Get the main features<br> fast and easy </p>
+                        <p class="news-card__price text-center">$20/m</p>
+                        <a class="green-nav-button nav-item nav-link text-white bg-success" href="#">get started</a>
+                    </div>
+                    <div class="news-card d-flex flex-column align-items-center">
+                        <p class="news-card__title h5 font-weight-bold text-center mb-4">30-day trial</p>
+                        <p class="news-card__description text-center">Create professional schedules<br> fast and easy</p>
+                        <p class="news-card__price text-center">$35/m</p>
+                        <a class="green-nav-button nav-item nav-link text-white bg-success" href="#">get started</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div id="test">
+            <div style="max-height: 100px; min-height: 100px; max-width: 100px; min-width: 100px; background-color: black; margin: 20px; color: white;">1</div>
+            <div style="max-height: 100px; min-height: 100px; max-width: 100px; min-width: 100px; background-color: black; margin: 20px; color: white;">2</div>
+            <div style="max-height: 100px; min-height: 100px; max-width: 100px; min-width: 100px; background-color: black; margin: 20px; color: white;">3</div>
+            <div style="max-height: 100px; min-height: 100px; max-width: 100px; min-width: 100px; background-color: black; margin: 20px; color: white;">4</div>
+            <div style="max-height: 100px; min-height: 100px; max-width: 100px; min-width: 100px; background-color: black; margin: 20px; color: white;">5</div>
+
+        </div> -->
+    </main>
+
+    <footer class="bg-dark p-4">
+        <div class="container d-flex justify-content-around">
+            <div class="footer-nav d-none d-sm-flex flex-column justify-content-between">
+                <a class="nav-item nav-link text-white h5" href="#products">Products <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link text-white" href="#features">Features</a>
+                <a class="nav-item nav-link text-white" href="#pricing">Pricing</a>
+                <a class="nav-item nav-link text-white" href="#references">References</a>
+                <a class="nav-item nav-link text-white" href="#news">News</a>
+            </div>
+            <div id="contact" class="footer-contacts d-flex flex-column justify-content-between">
+                <p class="footer-contact nav-item nav-link text-white h5">Contact</p>
+                <p class="text-secondary">Gjorwellsgatan 31,<br> 11260 Stockholm, Sverige</p>
+                <p class="text-secondary">+(468) 13 04 40</p>
+                <p class="text-secondary m-0 p-2">info@rixpls.com</p>
+            </div>
+            <div class="footer-links d-flex flex-column justify-content-between">
+                <div>
+                    <p class="text-white p-2 h5">Follow us</p>
+                    <div>
+                        <a href=""><img class="whatsapp-icon" src="/assets/images/whatsapp.svg" alt="whatsapp icon"></a>
+                        <a href=""><img class="in-icon" src="/assets/images/in.svg" alt="in icon"></a>
+                    </div>
+                </div>
+                <a class="footer-company-name" href="">Rixpls</a>
+            </div>
+            <div>
+                <img src="./assets/images/to top arrow.svg" alt="arrow to top">
+            </div>
+        </div>
+    </footer>
+    <div>
+
+    </div>
+    
+    <script
+  src="https://code.jquery.com/jquery-3.6.3.min.js"
+  integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+  crossorigin="anonymous"></script>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="./assets/script.js"></script>
+
+</body>
+  
+</html>
